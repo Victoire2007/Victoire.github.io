@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Your Page Title</title>
+        
+        <style> 
+        #header-text{
+          background-color:#CD5C5C;
+          text-align:center;
+          margin:auto;
+        }
+        a{
+           text-decoration:none; 
+            color:orange;
+        }
+        
+        a:hover{
+            color:blue;
+        }
+        #header {
+            
+            background-color:#9ba6a5;
+        }
+        table{
+            width:100%;
+        }
+        #home{
+            background-color:#DE3163;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+        .greeting{
+            
+            animation-name:example;      
+            animation-duration: 6s;
+        }
+        @keyframes example{
+            0%{color:blue}
+            25%{color:green}
+            50%{color:yellow}
+            100%{color:red}
+        }
+        
+        /*end of home*/
+        
+        /* start about section*/
+        #about{
+            width: 100%;
+            margin:auto;
+            background-color:lightblue;
+            color:red;
+            padding: 20px;
+            box-sizing:boxer-box
+        }
+       #about h1{
+           color:#7aa5d2;
+           text-align:center;
+       }
+       #about img{
+           width:100px;
+           height:auto;
+           display:block;
+           margin:auto;
+       }
+       #about p{
+           font-size:18px;
+           color:#97233F;
+           margin-bottom:13px;
+       }
+       #about hr{       
+           border:none;
+           border-top:3px #5F8575;
+           width:100px;
+           margin:auto;
+           color:blue;
+       }
+       
+       #skills{
+           background-color:#D8BFD8;
+           color:#770737;
+           margin:auto;
+       }
+       #skills-text{
+           font-size text:2em;
+           text-align:center;
+           background-color:black;
+       }
+       #skills ul{
+           list-style-type:none;
+           padding:10px;
+           margin:auto;
+         }
+       #skills li{
+           font-size:Verdana;
+           font-size:18px;
+           margin-bottom:10px;
+       }
+       #skills-line{
+           border:none;
+           border-top:3px solid lightblue;
+           margin:auto;
+       }
+       /* end of the skills section -->
+       /* start of the projects section */
+       
+       #projects{
+           background-color: green;
+           color: blue;
+           margin: auto;
+       }
+       #projects-text{
+           font-size:2em;
+           margin:auto;
+           text-align: center;
+           background-color: green;     
+           color: blue;
+       }
+       #project ul{
+           list-style-type: none;
+           padding: 10px;
+           margin: auto;
+       }
+       #project li{
+           font-family: Verdana;
+           font-size: 18px;
+           margin-bottom:10px;
+       }
+       #project-line{
+           border-top: 3px solid blue;
+           margin:auto;
+           width:10px;
+       }
+       /* end of the project section*/
+       /* start the contact section*/
+       #contact {
+           width:100%;
+           border-collapse: collapse;
+           text-align: center;
+       }
+       #contact h1{
+           margin: 0;
+           color: red;
+       }
+       #contact hr{
+           border: 0;
+           border-top: 2px solid red;
+       }
+       #contact td {
+           padding: 10px;
+       }
+       label {
+           font-weight: bold;
+           display: block;
+           margin-bottom: 5px;
+       }
+       
+       imput, textarea{
+           width:100%;
+           padding: 5px;
+           border: 2px solid black;
+           border-radius: 7px;
+       }
+       button {
+           background-color: red;
+           color: black;
+           padding: 10px;
+           border:none;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: background-color 0.3s;
+       }
+       button: hover{
+           background-color: green;
+       }
+       body{
+           background-color: lightgrey;
+       }
+       /*end of contact*/
+       /*start of the social media section*/
+       *fa:hover{
+           opacity: 0.3;
+       }
+       .fa-facebook{
+           background-color: blue;
+           color:white;
+       }
+       .fa-youtube-play{
+           background-color:white;
+           color:red;
+       }
+       .fa-instagram{
+           background-color:#D8BFD8;
+           color:#FF00FF;
+                  }
+                  .fa{
+                      padding: 20px;
+                      font-size: 40px;
+                      width:60px;
+                        text-decoration:none;
+                        margin:3px;
+                  }
+                  h1{
+                      color: lightgrey;
+                      text-align: center;
+                  }
+       </style>
+        
+        
+    </head>
+
+    <body>
+        
+       <h1 id="header-text">Portfolio</h1>
+       <table id="header" border"0">
+        <tr>
+            
+        <td>
+            
+        <p id="port"><h3>Victoire</h3></p>
+        </td>
+        <td></td>
+        <td><a href="#Home">Home</a></td>
+        <td>|</td>
+        <td><a href="#About">About</a></td>
+        <td>|</td>
+        <td><a href="#Skills">Skills</a></td>
+        <td>|</td>
+        <td><a href="#Projects">Projects</a></td>
+        <td>|</td>
+        <td><a href="#Contact">Contact</a></td>
+        
+        </tr>
+           
+       </table>
+       
+       <!--end of header -->
+       
+       <!--Home (start)-->
+       
+       <header id="home">
+           <h3 class="greeting">Greeting!</h3>
+           <h2><!--Freelance Programmer--></h2>
+       
+       </header>
+       <!--start About me (this is a comment) -->
+       <table id="about"> 
+       <tr>
+        <td>
+        <h1>About Me!</h1>
+        <hr>
+        <br>
+        <img src="https://codehs.com/uploads/26161f2c9cd5e597a3aadac248967f3d"  alt="Profile picture" width="80px" heigth="80px">
+         <p> Thank you for visiting my website. </p>
+         <p> I am a software engineer at Creekside Highschool.</p>   
+         <p> I am experiencing with HTML 5, CSS, and Javascript</p>
+         <p> Cheers, <br>
+         <em>WorldStar</em></p>
+        </td>
+       </tr>
+     
+       </table>
+       <!--end of the About-->
+       <!--start of the skill section-->
+       <h1 id="skill-text"> Skills </h1>
+       <hr id="skills-line">
+       <ul id="skills">
+        <li> Web Development 
+        <br>
+        HTML
+        <a href="https://www.w3schools.com/html/default.asp"><img src="https://codehs.com/uploads/154069367e10e5815b96a81632c7ecc8" width="20px"></a>
+        <br>
+        CSS:
+        <a href="https://www.w3schools.com/css/default.asp"><img src="https://codehs.com/uploads/4b4de0b571d66372f8f1f13270a1a13a" width="20px"></a>
+        <br>
+        JavaScript:
+        <a href="https://www.w3schools.com/js/default.asp"><img src="https://codehs.com/uploads/08ff7ef77a024ceda88694c179243ea4" width="20px"></a>
+        <br>
+        Data structures and Algorithms:
+        <br>
+        Python:
+        <a href="https://www.w3schools.com/python/default.asp"><img src="https://codehs.com/uploads/8fd46d7015ddc53c8f3e47e70168102b" width="20px"></a>
+        <br>
+        Operating Systems: LINUX
+        <br>
+        </li>
+       </ul>
+       <!--end of the skills section -->
+       <!-- the project section -->
+       <h1 id="projects-text"> Projects </h1>
+       <hr id="project-line">
+       <ul id="projects">
+           <li> Weather App
+           <p> I built a weather app using HTML & CSS </p>
+           </li>
+           <li> Personal Portfolio 
+           <p> I designed a fully functional webpage using HTML & CSS </p>
+           </li>
+           
+       </ul>
+       <!-- end of the projects section -->
+       <!-- contact section -->
+       
+       <table id="contact">
+           <tr>
+               <td colspan="2">
+                   <h1>Contact</h1>
+                   <hr>
+               </td>
+               
+           </tr>
+           <tr>
+               <td width="30%">
+               <label for="name">Name</label>
+               </td>
+               <td width="70%">
+                   <input type="text" id="name" name "name">
+               </td>
+           </tr>
+           
+           
+           
+           <tr>
+               <td width="30%">
+                   <label for="email">Email</label>
+               </td>
+               
+               <td width="70%">
+                   <input type="email" id="email" name="email">
+               </td>
+           </tr>
+           
+           <tr>
+               
+               <td width="30%">
+                   <label for="number">Number</label>
+               </td>
+               <td width="70%">
+                   <input type="number" id="number" name="number"></imput>
+               </td>
+           </tr>
+           
+           <tr>
+               <td width="30%">
+                   <label for="message"> Message </label>
+               </td>
+               <td width="70%">
+                   <textarea id="message" name="message" rows="5"></textarea>
+               </td>
+           </tr>
+           <tr>
+               <td width="30%">
+                   <button type="submit"><b>Submit</b></button>
+                   <hr>
+               </td>
+           </tr>
+       </table>
+       <!-- end of the contact section -->
+       <!-- start of the social media section-->
+       <center>
+           <h1></h1>
+           <h3 id="footer"> Social Media Icons</h3>
+           <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube-play"></a>
+            <h6> @Copyright 2026 by Victoire. All right reserved</h6>
+       </center>
+       <!--Home (end)-->
+    </body>
+</html>
